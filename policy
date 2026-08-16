@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Clinic Card</title>
+    <style>
+        :root {
+            --primary: #007bff;
+            --text-dark: #333333;
+            --text-light: #666666;
+            --bg-light: #f8f9fa;
+            --border-color: #e9ecef;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: var(--bg-light);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        /* Header layout */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .app-title {
+            margin: 0;
+            font-size: 24px;
+            color: var(--primary);
+        }
+
+        /* Language Toggle Button */
+        .lang-btn {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.2s ease;
+        }
+
+        .lang-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Content Visibility */
+        .lang-content {
+            display: none;
+        }
+
+        .active-content {
+            display: block;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            color: var(--text-dark);
+        }
+
+        h2 {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        p, li {
+            color: var(--text-light);
+            text-align: justify;
+        }
+
+        /* RTL Handling for Arabic */
+        [dir="rtl"] {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [dir="rtl"] ul {
+            padding-left: 0;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 class="app-title">Clinic Card</h1>
+        <button class="lang-btn" id="langToggle" onclick="toggleLanguage()">العربية</button>
+    </div>
+
+    <!-- ENGLISH PRIVACY POLICY -->
+    <div id="content-en" class="lang-content active-content" dir="ltr">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last updated: August 16, 2026</strong></p>
+        
+        <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+        
+        <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
+
+        <h2>Interpretation and Definitions</h2>
+        <h3>Definitions</h3>
+        <ul>
+            <li><strong>Account:</strong> A unique account created for You to access our Service or parts of our Service.</li>
+            <li><strong>Application:</strong> Refers to Clinic Card, the software program provided by the Company.</li>
+            <li><strong>Company:</strong> Refers to Clinic Card, Cairo, Egypt.</li>
+            <li><strong>Personal Data:</strong> Any information that relates to an identified or identifiable individual.</li>
+        </ul>
+
+        <h2>Collecting and Using Your Personal Data</h2>
+        <h3>Types of Data Collected</h3>
+        <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
+        <ul>
+            <li>Email address</li>
+            <li>First name and last name</li>
+            <li>Phone number</li>
+            <li>Usage Data</li>
+        </ul>
+
+        <!-- Add more English placeholders as required -->
+    </div>
+
+    <!-- ARABIC PRIVACY POLICY -->
+    <div id="content-ar" class="lang-content" dir="rtl">
+        <h1>سياسة الخصوصية</h1>
+        <p><strong>آخر تحديث: ١٦ أغسطس ٢٠٢٦</strong></p>
+        
+        <p>تصف سياسة الخصوصية هذه سياساتنا وإجراءاتنا المتعلقة بجمع معلوماتك واستخدامها والكشف عنها عند استخدامك للخدمة وتخبرك بحقوق الخصوصية الخاصة بك وكيف يحميك القانون.</p>
+        
+        <p>نحن نستخدم بياناتك الشخصية لتوفير الخدمة وتحسينها. باستخدام الخدمة، فإنك توافق على جمع المعلومات واستخدامها وفقًا لسياسة الخصوصية هذه.</p>
+
+        <h2>التفسيرات والتعريفات</h2>
+        <h3>التعريفات</h3>
+        <ul>
+            <li><strong>الحساب:</strong> يعني حسابًا فريدًا تم إنشاؤه لك للوصول إلى خدمتنا أو أجزاء من خدمتنا.</li>
+            <li><strong>التطبيق:</strong> يشير إلى "Clinic Card"، وهو برنامج البرنامج المقدم من الشركة.</li>
+            <li><strong>الشركة:</strong> تشير إلى Clinic Card، القاهرة، مصر.</li>
+            <li><strong>البيانات الشخصية:</strong> هي أي معلومات تتعلق بفرد محدد الهوية أو يمكن تحديد هويته.</li>
+        </ul>
+
+        <h2>جمع واستخدام بياناتك الشخصية</h2>
+        <h3>أنواع البيانات التي يتم جمعها</h3>
+        <p>أثناء استخدام خدمتنا، قد نطلب منك تزويدنا ببعض معلومات التعريف الشخصية التي يمكن استخدامها للاتصال بك أو تحديد هويتك. قد تشمل معلومات التعريف الشخصية، على سبيل المثال لا الحصر:</p>
+        <ul>
+            <li>البريد الإلكتروني</li>
+            <li>الاسم الأول واسم العائلة</li>
+            <li>رقم الهاتف</li>
+            <li>بيانات الاستخدام</li>
+        </ul>
+
+        <!-- أضف المزيد من النصوص البديلة بالعربية حسب الحاجة -->
+    </div>
+</div>
+
+<script>
+    function toggleLanguage() {
+        const btn = document.getElementById('langToggle');
+        const enContent = document.getElementById('content-en');
+        const arContent = document.getElementById('content-ar');
+
+        if (enContent.classList.contains('active-content')) {
+            // Switch to Arabic
+            enContent.classList.remove('active-content');
+            arContent.classList.add('active-content');
+            btn.innerText = 'English';
+        } else {
+            // Switch to English
+            arContent.classList.remove('active-content');
+            enContent.classList.add('active-content');
+            btn.innerText = 'العربية';
+        }
+    }
+</script>
+
+</body>
+</html>
